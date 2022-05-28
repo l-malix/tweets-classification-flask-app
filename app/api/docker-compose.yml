@@ -1,0 +1,12 @@
+version: "1.0"
+
+services:
+  tweets_classifier:
+    container_name: tweets_classifier
+    image: lmalix/tweets_classifier
+    ports:
+      - "5000:5000"
+
+    build:
+      context: .
+      dockerfile: Dockerfile

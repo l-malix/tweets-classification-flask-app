@@ -1,0 +1,4 @@
+model_dev/data/training.1600000.processed.noemoticon.csv
+model_dev/pipeline.pickle
+app/api/models/pipeline.pickle
+app/__pychache_/*
